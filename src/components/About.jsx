@@ -3,6 +3,7 @@ import { MdOutlineMail } from 'react-icons/md';
 import { FaGithub } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { FaLinkedinIn } from 'react-icons/fa6';
+import ProfileImg from '/src/assets/ola.png';
 
 const About = () => {
   return (
@@ -90,7 +91,7 @@ const About = () => {
         </div>
         <div className="w-full flex items-center justify-center mt-6 lg:w-[40%]">
           <img
-            src="/src/assets/ola.png"
+            src={ProfileImg}
             alt="profile picture"
             className="w-[80%] sm:w-[60%] md:w-[45%] lg:w-[65%] h-auto object-contain"
           />

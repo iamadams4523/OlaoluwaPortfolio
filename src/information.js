@@ -104,10 +104,13 @@ export const skillIcons = [
 ];
 
 // Project data
+import Image1 from './assets/Screenshot 2025-04-15 142414.jpg';
+import Image2 from './assets/Screenshot 2025-04-15 142414.jpg';
+import Image3 from './assets/Screenshot 2025-04-15 165857.jpg';
 export const projectData = [
   {
     name: 'BZ One',
-    image: '/src/assets/Screenshot 2025-04-15 142414.jpg',
+    image: Image1,
     description:
       'BZ One is an all-in-one business management platform designed to help small businesses, enterprises, and project managers streamline operations and seize new opportunities.',
     contributions: [
@@ -131,7 +134,7 @@ export const projectData = [
   },
   {
     name: 'utosia',
-    image: '/src/assets/Screenshot 2025-04-15 165857.jpg',
+    image: Image3,
     description:
       'This project is a customer-focused e-commerce application dedicated to promoting and selling renewable energy products such as residential solar systems and electric vehicle (EV) solutions.',
     contributions: [
