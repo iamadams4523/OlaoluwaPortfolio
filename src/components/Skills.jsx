@@ -32,6 +32,7 @@ const Skills = () => {
 
   return (
     <div
+      id="skills"
       ref={ref}
       className="max-w-5xl mt-[3rem] mb-[2rem] mx-auto p-6 bg-white border border-gray-200 rounded-2xl shadow-md"
     >

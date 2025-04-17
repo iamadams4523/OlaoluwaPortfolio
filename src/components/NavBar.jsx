@@ -26,13 +26,13 @@ const NavBar = () => {
   return (
     <div className="flex items-center justify-between w-full border-b border-gray-400 p-4">
       {/* Name */}
-      <div className="font-semibold font-[poppins] text-purple-600 text-[16px] lg:text-[20px]">
+      <div className="font-semibold font-[poppins] text-purple-600 text-[17px] lg:text-[22px]">
         Olaoluwa Babatunde
       </div>
 
       {/* Desktop Nav */}
       {!isMobile && (
-        <ul className="flex gap-10 font-bold font-[poppins] text-[12px] lg:text-[16px]">
+        <ul className="flex gap-10 font-bold font-[poppins] text-[13px] lg:text-[18px]">
           <li>
             <a href="#about" className="hover:text-purple-400">
               About
@@ -62,7 +62,7 @@ const NavBar = () => {
         onClick={handleDownload}
       >
         <IoMdDownload className="w-3 h-3 lg:w-3 lg:h-4" />
-        <p className="font-semibold font-[poppins] text-[10px] lg:text-[14px]">
+        <p className="font-semibold font-[poppins] text-[11px] lg:text-[16px]">
           Resume
         </p>
       </div>

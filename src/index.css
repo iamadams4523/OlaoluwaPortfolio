@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+* {
+  font-family: cursive;
+}
+
 .perspective {
   perspective: 1000px;
 }

@@ -13,10 +13,10 @@ const About = () => {
         className="w-full p-3 flex flex-col mt-1 lg:h-[75vh] lg:flex-row"
       >
         <div className="w-full mt-1 lg:mt-[4rem] lg:w-[40%]">
-          <p className="font-[poppins] font-light text-[12px] lg:text-[14px]">
+          <p className="font-[poppins] font-light text-[12px] lg:text-[16px]">
             Hello Welcome 👋
           </p>
-          <h1 className="font-bold font-[poppins] text-2xl mt-3 lg:text-3xl">
+          <h1 className="font-bold font-[poppins] text-2xl mt-3 lg:text-4xl">
             FullStack Cloud Engineer
           </h1>
 
@@ -36,15 +36,21 @@ const About = () => {
             />
           </h1>
           <div className="mt-4 flex items-center gap-3">
-            <div className="p-1.5 text-[11px] bg-purple-600 rounded-[8px] font-[poppins] font-[200] lg:text-[14px]">
+            <a
+              href="#contact"
+              className="p-1.5 text-[12px] bg-purple-600 rounded-[8px] font-[poppins] font-[200] lg:text-[16px]"
+            >
               Contact me
-            </div>
-            <div className="border-b-1 text-[10px] cursor-pointer font-[100] lg:text-[14px]">
-              see portfolio
-            </div>
+            </a>
+            <a
+              href="#skills"
+              className="border-b-1 text-[12px] cursor-pointer font-[100] lg:text-[16px]"
+            >
+              see skills
+            </a>
           </div>
 
-          <div className="mt-8 ml-5 font-[poppins] text-[10px] lg:text-[12px]">
+          <div className="mt-8 ml-5 font-[poppins] text-[12px] lg:text-[16px]">
             I'm a full-stack engineer with 6+ years of experience and AWS Cloud
             Solutions Architect certification. I build scalable web applications
             across frontend, backend, and infrastructure using modern
@@ -53,7 +59,9 @@ const About = () => {
           </div>
 
           <div className="flex items-center mt-4 gap-[4rem]">
-            <p>follow me</p>
+            <p className="text-[15px] font-semibold lg:text-[17px]">
+              follow me
+            </p>
             <div className="flex items-center gap-[2rem]">
               <a
                 href="mailto:olaoluwanhs@gmail.com"
@@ -101,7 +109,7 @@ const About = () => {
             <h1 className="font-[poppins] font-bold text-2xl lg:text-4xl lg:text-end">
               6+
             </h1>
-            <p className="font-[poppins] font-normal text-[11px] lg:text-[13px] lg:text-end">
+            <p className="font-[poppins] font-normal text-[13px] lg:text-[15px] lg:text-end">
               years making professional projects
             </p>
           </div>
@@ -109,7 +117,7 @@ const About = () => {
             <h1 className="font-[poppins] font-bold text-2xl lg:text-4xl lg:text-end">
               20+
             </h1>
-            <p className="font-[poppins] font-normal text-[11px] lg:text-[13px] lg:text-end">
+            <p className="font-[poppins] font-normal text-[13px] lg:text-[15px] lg:text-end">
               completed projects
             </p>
           </div>
@@ -117,7 +125,7 @@ const About = () => {
             <h1 className="font-[poppins] font-bold text-2xl lg:text-4xl lg:text-end">
               95%
             </h1>
-            <p className="font-[poppins] font-normal text-[11px] lg:text-[13px] lg:text-end">
+            <p className="font-[poppins] font-normal text-[13px] lg:text-[15px] lg:text-end">
               success rate
             </p>
           </div>

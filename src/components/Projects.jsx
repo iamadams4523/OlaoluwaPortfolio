@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div id="projects" className="w-[90%] mt-[3rem] mx-auto mb-10">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-3xl text-purple-600 font-bold font-[poppins] mb-6">
+        <h1 className="text-4xl text-purple-600 font-bold font-[poppins] mb-6">
           My Recent Projects
         </h1>
 
@@ -16,7 +16,7 @@ const Projects = () => {
           {projectData.map((project, index) => (
             <div
               key={index}
-              className="h-[22rem] perspective cursor-pointer"
+              className="h-[25rem] perspective cursor-pointer"
               onMouseEnter={() => setFlippedIndex(index)}
               onMouseLeave={() => setFlippedIndex(null)}
             >
@@ -34,12 +34,12 @@ const Projects = () => {
                     />
                   </div>
                   <div className="mt-4">
-                    <p className="text-white font-light font-[poppins] text-[12px]">
+                    <p className="text-white font-light font-[poppins] text-[14px] lg:text-[16px]">
                       {project.description}
                     </p>
                   </div>
                   <div className="mt-4">
-                    <p className="text-white text-center font-bold font-[poppins] text-[14px]">
+                    <p className="text-white text-center font-bold font-[poppins] text-[14px] lg:text-[20px]">
                       {project.name}
                     </p>
                   </div>
@@ -47,11 +47,11 @@ const Projects = () => {
 
                 {/* Back */}
                 <div className="absolute w-full h-full backface-hidden rotate-y-180 border border-purple-500 p-3 rounded-2xl bg-purple-100 text-purple-900">
-                  <div className="flex flex-col h-full text-[13px] font-[poppins]">
-                    <h2 className="font-bold mb-2 text-center underline">
+                  <div className="flex flex-col h-full text-[14px] font-[poppins]">
+                    <h2 className="font-bold mb-2 text-center underline lg:text-[17px]">
                       Contributions
                     </h2>
-                    <ul className="list-disc list-inside overflow-y-auto pr-2">
+                    <ul className="list-disc list-inside overflow-y-auto pr-2 lg:text-[15px]">
                       {project.contributions.map((item, i) => (
                         <li key={i}>{item}</li>
                       ))}
@@ -60,7 +60,7 @@ const Projects = () => {
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-center underline mt-4 text-purple-700"
+                      className="text-center underline mt-4 text-purple-700 lg:text-[16px]"
                     >
                       Visit Site
                     </a>
