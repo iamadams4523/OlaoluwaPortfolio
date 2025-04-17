@@ -23,7 +23,7 @@ const TimelineItem = ({ item, delay = 0 }) => {
       ref={ref}
       className={`
         mb-10 flex w-full relative 
-        ${isLeft ? 'justify-end pr-10' : 'justify-start pl-10'}
+        ${isLeft ? 'justify-end pr-[1rem]' : 'justify-start pr-[1rem]'}
         max-[465px]:justify-center max-[465px]:px-0
       `}
     >
@@ -31,7 +31,7 @@ const TimelineItem = ({ item, delay = 0 }) => {
         initial={{ opacity: 0, x: isLeft ? -100 : 100 }}
         animate={controls}
         transition={{ duration: 0.6, delay }}
-        className="hover:bg-purple-600 hover:text-white p-4 rounded-xl shadow-lg w-[370px] max-[465px]:w-full max-[465px]:px-4"
+        className="hover:bg-purple-600 hover:text-white p-4 rounded-xl shadow-lg w-[460px] max-[465px}:w-full max-[465px]:px-4"
       >
         <h1 className="font-[poppins] font-bold text-[20px]">
           {item.company}: {item.location}
@@ -63,7 +63,7 @@ const Experience = () => {
         Experience
       </h1>
 
-      <div className="relative w-[70%] max-[465px]:w-[90%]">
+      <div className="relative w-[90%] max-[465px]:w-[90%]">
         {/* Center Line for Desktop */}
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 h-full w-1 bg-purple-600 max-[1200px]:hidden" />
 
