@@ -1,5 +1,6 @@
 import { IoMdDownload } from 'react-icons/io';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -52,6 +53,11 @@ const NavBar = () => {
             <a href="#contact" className="hover:text-purple-400">
               Contact
             </a>
+          </li>
+          <li>
+            <Link to="/Blog" className="hover:text-purple-400">
+              Blog
+            </Link>
           </li>
         </ul>
       )}

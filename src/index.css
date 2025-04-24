@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 * {
-  font-family: cursive;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .perspective {

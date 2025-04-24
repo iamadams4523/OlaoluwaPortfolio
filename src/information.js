@@ -103,9 +103,11 @@ export const skillIcons = [
   { icon: redisIcon, label: 'Redis', animation: 'from-bottom' },
 ];
 
+// Certifications
+
 // Project data
 import Image1 from './assets/Screenshot 2025-04-15 142414.jpg';
-import Image2 from './assets/Screenshot 2025-04-15 142414.jpg';
+import Image2 from './assets/IMG-20250417-WA0014.jpg';
 import Image3 from './assets/Screenshot 2025-04-15 165857.jpg';
 export const projectData = [
   {
@@ -122,9 +124,9 @@ export const projectData = [
   },
   {
     name: 'CVToCareer',
-    image: '/src/assets/another-image.jpg',
+    image: Image2,
     description:
-      'Another project to showcase design, logic, and API handling with clean infrastructure.',
+      'CvToCareer mission is to empower job seekers with expert career services, transforming job searches into seamless, rewarding journeys and equipping them to thrive in todays market',
     contributions: [
       'I coded new features and refactored systems for aselenium python bot.',
       'I lead a team of developers to build the companywebsite that users used to connect and viewtheresults of the bot run on their information.',
@@ -141,5 +143,25 @@ export const projectData = [
       'I worked on the the back-end of the app to set up all endpoints for e-commerce and power audit calculations.',
     ],
     link: 'https://www.utosia.com/',
+  },
+];
+
+// Blog Data
+
+export const blogData = [
+  {
+    title: 'My First Blog',
+    date: '2025-04-15',
+    author: 'Olaoluwa',
+    image: '/assets/blog1.jpg',
+    content:
+      ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptas reprehenderit a doloribus consequuntur eveniet, fugit, porro vero, ex quod ipsa? Recusandae iusto maxime laudantium nam, doloribus accusantium animi tempore?',
+  },
+  {
+    title: 'Working with Cloud',
+    date: '2025-04-10',
+    author: 'Olaoluwa',
+    content:
+      ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptas reprehenderit a doloribus consequuntur eveniet, fugit, porro vero, ex quod ipsa? Recusandae iusto maxime laudantium nam, doloribus accusantium animi tempore?',
   },
 ];
