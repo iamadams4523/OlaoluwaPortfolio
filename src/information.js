@@ -104,6 +104,15 @@ export const skillIcons = [
 ];
 
 // Certifications
+import img from './assets/IMG-20250425-WA0014.jpg';
+
+export const certifations = [
+  {
+    certificateImg: img,
+    certifateName: 'AWS Solutions Architect Associates (SAA-C03)',
+    certifateDate: '2023-2024',
+  },
+];
 
 // Project data
 import Image1 from './assets/Screenshot 2025-04-15 142414.jpg';

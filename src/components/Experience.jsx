@@ -57,7 +57,7 @@ const Experience = () => {
   return (
     <div
       id="experience"
-      className="w-full flex flex-col items-center mt-10 pb-4"
+      className="w-full flex flex-col items-center mt-10 pb-4 lg:mt-[5rem]"
     >
       <h1 className="text-4xl text-purple-600 font-bold font-[poppins] mb-10">
         Experience

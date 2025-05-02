@@ -1,22 +1,6 @@
-import { useState } from 'react';
+import {} from 'react';
 
 const Contact = () => {
-  const [form, setForm] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-  });
-
-  const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submitted:', form);
-  };
-
   return (
     <div id="contact" className="w-full px-4 py-12">
       <div className="max-w-3xl mx-auto">
@@ -25,15 +9,14 @@ const Contact = () => {
         </h2>
 
         <form
-          onSubmit={handleSubmit}
+          action="https://formspree.io/f/mdobqedv"
+          method="post"
           className="bg-white p-6 rounded-xl shadow-md space-y-5"
         >
           <div className="flex flex-col md:flex-row gap-4">
             <input
               type="text"
               name="name"
-              value={form.name}
-              onChange={handleChange}
               placeholder="Your Name"
               required
               className="w-full border border-gray-300 rounded-lg p-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
@@ -41,8 +24,6 @@ const Contact = () => {
             <input
               type="email"
               name="email"
-              value={form.email}
-              onChange={handleChange}
               placeholder="Your Email"
               required
               className="w-full border border-gray-300 rounded-lg p-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
@@ -52,16 +33,12 @@ const Contact = () => {
           <input
             type="text"
             name="subject"
-            value={form.subject}
-            onChange={handleChange}
             placeholder="Subject"
             className="w-full border border-gray-300 rounded-lg p-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
           />
 
           <textarea
             name="message"
-            value={form.message}
-            onChange={handleChange}
             placeholder="Your Message"
             rows="5"
             required
