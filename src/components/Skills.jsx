@@ -71,9 +71,9 @@ const Skills = () => {
       <div className="text-2xl font-[poppins] text-purple-700 font-semibold mt-6 mb-6 text-center">
         Certifications
       </div>
-      <div className="flex flex-col gap-6 ">
+      <div className="flex flex-col gap-6 shadow-md">
         {certifations.map((certifation, index) => (
-          <div className="flex flex-col justify-center items-center p-2 border border-gray-200 max-w-5xl mx-auto h-[20rem] rounded-2xl lg:flex-row lg:gap-2">
+          <div className="flex flex-col justify-center items-center p-2 border border-gray-200 max-w-5xl mx-auto h-[22rem] lg:h-[20rem] rounded-2xl lg:flex-row lg:gap-2">
             <img
               className="w-[100%] h-full sm:w-[65%] lg:w-[50%] "
               src={certifation.certificateImg}
